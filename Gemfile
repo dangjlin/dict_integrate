@@ -40,6 +40,7 @@ group :production, :staging do
 end
 
 group :development do
+  gem "sqlite3" , '>=1.3.6'
   gem "rspec-rails" , '>= 2.0.0' 
 end
 
