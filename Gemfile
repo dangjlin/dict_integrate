@@ -7,6 +7,9 @@ gem 'rails', '4.0.1'
 # Use Bootstrap from Twitter Framework
 gem 'bootstrap-sass', '>=2.3.2.0'
 
+# use password hash cryption module 
+gem 'bcrypt-ruby', '>=3.0.1'
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 
