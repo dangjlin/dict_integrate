@@ -10,6 +10,9 @@ gem 'bootstrap-sass', '>=2.3.2.0'
 # use password hash cryption module 
 gem 'bcrypt-ruby', '>=3.0.1'
 
+# use web crawler nokogiri 
+#gem 'nokogiri'
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 
@@ -57,6 +60,7 @@ end
 group :test do
   gem 'selenium-webdriver', '>=2.35.1'
   gem 'capybara', '>=2.1.0'
+  gem 'factory_girl_rails', '>=4.2.1'
 end
 
 
