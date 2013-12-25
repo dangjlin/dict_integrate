@@ -1,0 +1,32 @@
+<% provide(:title, @word.input_word) %>
+<div class="row">
+	<aside class="span4">
+	  <section>
+
+		<h1>
+			yahoo (Dr.Eye)查詢的結果 <br>
+			<%= yahoo_lookup @word.input_word %> 
+			<%= @meanings.to_s%> 
+			<br> 
+			<%= @meanings.class %> 
+			<br>
+			<%= @word.input_word %>
+			<br>
+			<%    %> 
+			<p>	
+			<p>
+			Naer 查詢的結果 <br>
+			<%= naer_lookup @word.input_word %> 
+	  	  	<%= @meanings2.to_s%> 
+	  	  	<br>
+	  	  	<%= @meanings2.class %>
+	  	  	<br>
+			<%= @word.input_word %>
+		</h1>
+
+		<h2> 查詢單字 : <%= @word.input_word %> </h2>
+	  </section>
+	</aside>
+</div>
+
+
